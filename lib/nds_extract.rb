@@ -16,7 +16,7 @@ def directors_totals(source)
   result
 end
 
-pp directors_totals
+pp directors_totals(directors_database)
 binder.pry
 
 def gross_for_director(d)
