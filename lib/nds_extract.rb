@@ -50,12 +50,9 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   total=0
-  count=0
-  while count<source.length do
-    total+=directors_totals(source[count][:movies])
-    count+=1
-  end
-  total
+  dir_index=0
+  while dir_index<source.length
+    directors_totals(source[:movies])
 end
 
 
