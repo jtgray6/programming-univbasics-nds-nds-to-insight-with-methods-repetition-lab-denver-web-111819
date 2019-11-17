@@ -52,7 +52,7 @@ def total_gross(source)
   total=0
   count=0
   while count<source.length do
-    total+=directors_totals(source[count][:name])
+    total+=directors_totals(source[count][:movies])
     count+=1
   end
   total
