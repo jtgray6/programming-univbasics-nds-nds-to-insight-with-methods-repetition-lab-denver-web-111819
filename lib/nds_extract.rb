@@ -54,7 +54,7 @@ def total_gross(source)
   while dir_index<source.length
     mov_index=0
     while mov_index<source[dir_index].length
-      total+=directors_totals(source[:movies])
+      total+=directors_totals(source[:movies][mov_index])
       mov_index+=1
     end
   dir_index+=1
