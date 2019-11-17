@@ -16,9 +16,6 @@ def directors_totals(source)
   result
 end
 
-pp directors_totals(directors_database)
-binder.pry
-
 def gross_for_director(d)
   total = 0
   index = 0
@@ -30,6 +27,9 @@ def gross_for_director(d)
 
   total
 end
+
+pp directors_totals(directors_database)
+binder.pry
 
 def list_of_directors(source)
   dir_index=0
