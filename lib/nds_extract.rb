@@ -57,6 +57,7 @@ def total_gross(source)
     total+=gross_for_director(source[dir_ind])
     dir_ind+=1
   end
+total
 end
 
 
