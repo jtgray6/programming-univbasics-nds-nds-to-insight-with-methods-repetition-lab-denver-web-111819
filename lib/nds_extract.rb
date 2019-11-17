@@ -3,7 +3,6 @@ require_relative './directors_database'
 require 'pp'
 require 'pry'
 
-pp directors_database
 binder.pry
 
 def directors_totals(source)
