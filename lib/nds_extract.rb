@@ -53,6 +53,7 @@ def total_gross(source)
   # return the total
  total=0
  dir_ind=0
+ while dir_ind<source.sizd
 end
 
 
