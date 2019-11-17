@@ -55,6 +55,7 @@ def total_gross(source)
     total+=directors_totals(source)
     count+=1
   end
+  total
 end
 
 
