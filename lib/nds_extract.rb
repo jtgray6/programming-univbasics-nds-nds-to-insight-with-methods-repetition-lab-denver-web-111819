@@ -28,8 +28,8 @@ def gross_for_director(d)
   total
 end
 
-pp directors_totals(directors_database)
-binder.pry
+# pp directors_totals(directors_database)
+# binder.pry
 
 def list_of_directors(source)
   dir_index=0
@@ -51,10 +51,10 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+  count=0
   total=0
-  dir_index=0
-  while dir_index<source.length
-    total+=directors_totals(source[:])
+  while count<list_of_directors(source).length do
+    
 end
 
 
