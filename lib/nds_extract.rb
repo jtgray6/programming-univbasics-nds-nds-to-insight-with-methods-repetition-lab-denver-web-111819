@@ -3,7 +3,7 @@ require_relative './directors_database'
 require 'pp'
 require 'pry'
 
-binder.pry
+
 
 def directors_totals(source)
   result = {}
@@ -17,6 +17,7 @@ def directors_totals(source)
 end
 
 pp directors_totals
+binder.pry
 
 def gross_for_director(d)
   total = 0
