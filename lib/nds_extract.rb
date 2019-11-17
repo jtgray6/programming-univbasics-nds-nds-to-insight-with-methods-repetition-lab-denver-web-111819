@@ -56,6 +56,7 @@ def total_gross(source)
   while count<list_of_directors(source).length do
     total+=directors_totals(list_of_directors[count])
     count+=1
+  end
 end
 
 
