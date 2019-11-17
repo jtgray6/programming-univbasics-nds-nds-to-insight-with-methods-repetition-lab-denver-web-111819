@@ -17,6 +17,8 @@ def directors_totals(source)
   result
 end
 
+pp directors_totals
+
 def gross_for_director(d)
   total = 0
   index = 0
