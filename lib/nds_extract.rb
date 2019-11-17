@@ -51,7 +51,9 @@ def total_gross(source)
   # return the total
   total=0
   count=0
-  while count<source.length
+  while count<source.length do
+    total+=directors_totals(source)
+    count+=1
 end
 
 
