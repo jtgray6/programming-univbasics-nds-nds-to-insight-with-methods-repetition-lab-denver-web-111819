@@ -34,6 +34,8 @@ def list_of_directors(source)
   list=[]
   while dir_index < source.length
     list[dir_index]=source[dir_index][:name]
+    dir_index+=1
+  end
 end
 
 def total_gross(source)
